@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QXRouter_Example' do
+  pod 'QXRouter', :path => '../'
+
+  target 'QXRouter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

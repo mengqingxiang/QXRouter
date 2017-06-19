@@ -25,7 +25,7 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [[QXRouter shareInstance] pushViewController:@"test" params:@{@"order_id":@"123"} nav:self.navigationController];
+    [[QXRouter shareInstance] pushViewController:@"test" params:@{@"order_id":@"sdfs"} nav:self.navigationController];
 }
 
 @end

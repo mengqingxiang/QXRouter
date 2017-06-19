@@ -6,8 +6,9 @@
 //  Copyright (c) 2017 mengqingxiang. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+
 
 @interface QXViewController : UIViewController
-@property(nonatomic,copy)NSString *order_id;
+
 @end

@@ -1,0 +1,16 @@
+PODS:
+  - QXRouter (0.1.0)
+
+DEPENDENCIES:
+  - QXRouter (from `../`)
+
+EXTERNAL SOURCES:
+  QXRouter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QXRouter: 85d98ca91d086b80d911e7383719326d8d6d6f99
+
+PODFILE CHECKSUM: 896bb38bc620291204c73aa806ad3a98e69e0e41
+
+COCOAPODS: 1.1.1

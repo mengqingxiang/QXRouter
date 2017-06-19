@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2946F0061EF76AA800E89B6B /* QXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2946F0051EF76AA800E89B6B /* QXSecondViewController.m */; };
+		2EBB07D400F93E16EFF0501E /* Pods_QXRouter_Example_QXRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905BC746A12E7F33F1922C8B /* Pods_QXRouter_Example_QXRouter_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +40,9 @@
 
 /* Begin PBXFileReference section */
 		015052B38B6D1FD410069F21 /* Pods-QXRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXRouter_Example/Pods-QXRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		231C0FE73B9B9CE6C5A02BC0 /* QXRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QXRouter.podspec; path = ../QXRouter.podspec; sourceTree = "<group>"; };
+		231C0FE73B9B9CE6C5A02BC0 /* QXRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QXRouter.podspec; path = ../QXRouter.podspec; sourceTree = "<group>"; };
+		2946F0041EF76AA800E89B6B /* QXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXSecondViewController.h; sourceTree = "<group>"; };
+		2946F0051EF76AA800E89B6B /* QXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXSecondViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QXRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QXRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +65,15 @@
 		62CABA84E633681A1BF946FF /* Pods-QXRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXRouter_Example/Pods-QXRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		62E5C87CE7485B5D26BACA35 /* Pods_QXRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86970E87BAB6ADAFACC5BD01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		86970E87BAB6ADAFACC5BD01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905BC746A12E7F33F1922C8B /* Pods_QXRouter_Example_QXRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXRouter_Example_QXRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB5B8497163180C162132A5 /* Pods-QXRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXRouter_Tests/Pods-QXRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF9EB18AD593E807DD779986 /* Pods-QXRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXRouter_Tests/Pods-QXRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1CBB6E6CB5E95BAD38BA87B /* Pods_QXRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA5D31DD75252C6DBB420D29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C46E6BCBACAF2DCE69327F97 /* Pods-QXRouter_Example-QXRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXRouter_Example-QXRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QXRouter_Example-QXRouter_Tests/Pods-QXRouter_Example-QXRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D09AEA5BDB588A95370E9A76 /* Pods-QXRouter_Example-QXRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QXRouter_Example-QXRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QXRouter_Example-QXRouter_Tests/Pods-QXRouter_Example-QXRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5D31DD75252C6DBB420D29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				F596E29191657BA38BFC52E3 /* Pods_QXRouter_Tests.framework in Frameworks */,
+				2EBB07D400F93E16EFF0501E /* Pods_QXRouter_Example_QXRouter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +110,8 @@
 				015052B38B6D1FD410069F21 /* Pods-QXRouter_Example.release.xcconfig */,
 				9FB5B8497163180C162132A5 /* Pods-QXRouter_Tests.debug.xcconfig */,
 				AF9EB18AD593E807DD779986 /* Pods-QXRouter_Tests.release.xcconfig */,
+				D09AEA5BDB588A95370E9A76 /* Pods-QXRouter_Example-QXRouter_Tests.debug.xcconfig */,
+				C46E6BCBACAF2DCE69327F97 /* Pods-QXRouter_Example-QXRouter_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -136,6 +146,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				C1CBB6E6CB5E95BAD38BA87B /* Pods_QXRouter_Example.framework */,
 				62E5C87CE7485B5D26BACA35 /* Pods_QXRouter_Tests.framework */,
+				905BC746A12E7F33F1922C8B /* Pods_QXRouter_Example_QXRouter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +159,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QXViewController.h */,
 				6003F5A6195388D20070C39A /* QXViewController.m */,
+				2946F0041EF76AA800E89B6B /* QXSecondViewController.h */,
+				2946F0051EF76AA800E89B6B /* QXSecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -309,7 +322,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXRouter_Tests/Pods-QXRouter_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXRouter_Example-QXRouter_Tests/Pods-QXRouter_Example-QXRouter_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7234EF70B4BE2C3DBFBFC891 /* [CP] Copy Pods Resources */ = {
@@ -324,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXRouter_Tests/Pods-QXRouter_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QXRouter_Example-QXRouter_Tests/Pods-QXRouter_Example-QXRouter_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7DED6DDDE890683DBB740E03 /* [CP] Copy Pods Resources */ = {
@@ -394,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2946F0061EF76AA800E89B6B /* QXSecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* QXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* QXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -551,7 +565,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FB5B8497163180C162132A5 /* Pods-QXRouter_Tests.debug.xcconfig */;
+			baseConfigurationReference = D09AEA5BDB588A95370E9A76 /* Pods-QXRouter_Example-QXRouter_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +589,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF9EB18AD593E807DD779986 /* Pods-QXRouter_Tests.release.xcconfig */;
+			baseConfigurationReference = C46E6BCBACAF2DCE69327F97 /* Pods-QXRouter_Example-QXRouter_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

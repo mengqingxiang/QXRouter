@@ -7,7 +7,7 @@
 //
 
 #import "QXViewController.h"
-
+#import "QXRouter.h"
 @interface QXViewController ()
 
 @end
@@ -17,13 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [QXRouter shareInstance].rootNav = self.navigationController;
 }
 
-- (void)didReceiveMemoryWarning
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [[QXRouter shareInstance] pushViewController:@"test" params:@{@"order_id":@"123"} nav:self.navigationController];
 }
 
 @end

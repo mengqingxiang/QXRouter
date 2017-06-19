@@ -1,0 +1,6 @@
+framework module QXRouter {
+  umbrella header "QXRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
